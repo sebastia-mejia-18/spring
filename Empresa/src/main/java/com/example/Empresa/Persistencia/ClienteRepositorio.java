@@ -12,7 +12,6 @@ public class ClienteRepositorio {
     ClientenCrudRepositorio clientenCrudRepositorio;
 
     public List<Cliente> ConsultaGeneral(){
-
         return (List<Cliente>) clientenCrudRepositorio.findAll();
     }
 
