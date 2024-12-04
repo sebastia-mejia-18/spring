@@ -14,11 +14,9 @@ public class Vendedor {
     @Column(name = "nom_vendedor")
     private String nom_vendedor;
 
-    @Column(name = "existencias")
-    private String Existencias;
+    @Column(name = "tel_vendedor")
+    private String tel_vendedor;
 
-    @Column(name = "valor_actual")
-    private String Valor_Actual;
 
     @Column(name = "activo")
     private boolean Activo;
@@ -42,20 +40,12 @@ public class Vendedor {
         this.nom_vendedor = nom_vendedor;
     }
 
-    public String getExistencias() {
-        return Existencias;
+    public String getTel_vendedor() {
+        return tel_vendedor;
     }
 
-    public void setExistencias(String existencias) {
-        Existencias = existencias;
-    }
-
-    public String getValor_Actual() {
-        return Valor_Actual;
-    }
-
-    public void setValor_Actual(String valor_Actual) {
-        Valor_Actual = valor_Actual;
+    public void setTel_vendedor(String tel_vendedor) {
+        this.tel_vendedor = tel_vendedor;
     }
 
     public boolean isActivo() {

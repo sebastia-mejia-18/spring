@@ -20,7 +20,7 @@ public class Producto implements Serializable {
     private Integer Existencias;
 
     @Column (name = "Valor_Actual")
-    private float valor_actual;
+    private Float valor_actual;
 
     @Column(name = "activo")
     private boolean activo;

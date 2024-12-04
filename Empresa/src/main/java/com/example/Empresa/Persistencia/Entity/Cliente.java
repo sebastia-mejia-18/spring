@@ -23,7 +23,7 @@ public class Cliente implements Serializable {
     @Column(name = "activo")
     private boolean activo;
 
-    @OneToMany(mappedBy = "cliente")
+    @OneToMany(mappedBy = "factura")
     private List <Factura> Factura;
 
     public String getIdenCliente() {
